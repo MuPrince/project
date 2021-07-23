@@ -1,21 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/rabbitmq/rabbitmq-javaapi/src/main/java/com/prince/ack/AckConsumer.java" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mybatis" />
+        <module name="mall-common" />
+        <module name="prince-util" />
+        <module name="mall-file-service" />
+        <module name="springboot-demo" />
+        <module name="rabbitmq-javaapi" />
+        <module name="mall-goods-api" />
         <module name="framework" />
-        <module name="rocketmqdemo" />
-        <module name="rabbitmqdemo" />
+        <module name="mall-service-dependency" />
+        <module name="simple-rpc-demo" />
+        <module name="mall-goods-service" />
+        <module name="springboot-amqp" />
+        <module name="prince-utils" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rabbitmqdemo" target="1.8" />
+      <module name="rocketmqdemo" target="1.8" />
+      <module name="RPC" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mall-common" options="-parameters" />
+      <module name="mall-file-service" options="-parameters" />
+      <module name="mall-goods-api" options="-parameters" />
+      <module name="mall-goods-service" options="-parameters" />
+      <module name="mall-service-dependency" options="-parameters" />
+      <module name="prince-util" options="-parameters" />
       <module name="rabbitmqdemo" options="-parameters" />
       <module name="rocketmqdemo" options="-parameters" />
+      <module name="springboot-amqp" options="-parameters" />
+      <module name="springboot-demo" options="-parameters" />
     </option>
   </component>
 </project>

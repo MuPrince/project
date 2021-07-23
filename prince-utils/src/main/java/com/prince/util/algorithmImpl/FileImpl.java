@@ -12,6 +12,8 @@ import java.io.*;
 public class FileImpl {
 
 
+    //mvn install:install-file -Dfile=chardet.jar -DgroupId=org.mozilla.intl -DartifactId=chardet -Dversion=1.0 -Dpackaging=jar
+
     /**
      * **************************************************
      * 以下方式利用mozilla的jchardet作为探测工具
