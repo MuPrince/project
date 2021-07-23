@@ -11,7 +11,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis" />
         <module name="mall-common" />
-        <module name="prince-util" />
         <module name="mall-file-service" />
         <module name="springboot-demo" />
         <module name="rabbitmq-javaapi" />
@@ -25,6 +24,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="prince-util" target="8" />
       <module name="rabbitmqdemo" target="1.8" />
       <module name="rocketmqdemo" target="1.8" />
       <module name="RPC" target="1.5" />
