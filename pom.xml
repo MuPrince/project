@@ -15,7 +15,6 @@
         <module>rabbitmq</module>
         <module>RPC</module>
         <module>mall</module>
-        <module>mall</module>
     </modules>
 
     <dependencies>
