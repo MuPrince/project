@@ -43,4 +43,13 @@ public class Brand {
      */
     private Integer sort;
 
+    public static void main(String[] args) {
+        String s = "123456789012345678";
+
+        char[] chars = s.toCharArray();
+        for (char c : chars) {
+            int i = c / 10;
+        }
+
+    }
 }

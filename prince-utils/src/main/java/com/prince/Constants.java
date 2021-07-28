@@ -171,4 +171,7 @@ public final class Constants {
 
     //必选包含数字、大写字母、小写字母、特殊字符，长度在8到15位
     public static final String SEC_PASSWORD = "^(?=.*?[0-9])(?=.*?[a-z])(?=.*?[A-Z])(?=.*?[@!#$%^&*()_+\\.\\-\\?<>'\"|=]+).{8,15}$";
+
+    // 18位身份证中，各个数字的生成校验码时的权值
+    private static final int[] VERIFY_ID_NUMBER_WEIGHT = { 7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2 };
 }
