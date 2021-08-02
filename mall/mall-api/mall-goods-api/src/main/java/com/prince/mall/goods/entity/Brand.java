@@ -7,6 +7,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.function.Function;
+
 /**
  * Project mall <br\>
  * Package com.prince.mall.goods <br\>
